@@ -1,0 +1,28 @@
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore dataset backups or large temporary files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore Excel temp files
+~$*.xlsx
+
+# Ignore VS Code or PyCharm workspace settings
+.vscode/
+.idea/
+
+# Ignore Power BI autosaves or temp files
+*.pbix.autosave
